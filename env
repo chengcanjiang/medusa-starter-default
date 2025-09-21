@@ -1,8 +1,8 @@
 STORE_CORS=http://localhost:8000,https://docs.medusajs.com
 ADMIN_CORS=http://localhost:5173,http://localhost:9000,https://docs.medusajs.com
 AUTH_CORS=http://localhost:5173,http://localhost:9000,https://docs.medusajs.com
-REDIS_URL=redis://localhost:6379
-JWT_SECRET=supersecret
-COOKIE_SECRET=supersecret
+REDIS_URL=redis://default:sKCDyhYMrJuGcPWZyNtxzlUSkxIfIRUP@redis.railway.internal:6379
+JWT_SECRET=4E7A98F0B2C4E6A8D3A6D9F2B4CD2F5C8B1E7E1A3D5F8B0E2A4D6F8C0B2E4A6D
+COOKIE_SECRET=8D6A4E2C0B8F6D4A2E0BF6D4A2B8E0B8F6D4A2E0B8F6D4A2E0B8F6D8F6D4A2E0
 DATABASE_URL=postgresql://postgres:OcYdMpSbKxasiZDZhLFkgAfBmCRWvDnk@postgres.railway.internal:5432/railway
-DB_NAME=medusa-v2
+DB_NAME=railway
